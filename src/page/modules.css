@@ -1,0 +1,42 @@
+.page_height{
+  position: relative;
+  min-height: 1000px;
+  width: 100%;
+}
+.text-container {
+  box-sizing: border-box;
+  border: 1px solid #eee;
+}
+#bgStyle{
+  z-index: 100 !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.input_outer {
+  z-index: 1000;
+  height: 46px;
+  padding: 0 5px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  margin: 0 auto;
+  border: rgba(100, 95, 95, 0.2) 2px solid !important;
+}
+.home_banner {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background: url(//image.wjx.com/images/newimg/index/banner.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//image.wjx.com/images/newimg/index/banner.jpg', sizingMethod='scale');
+}
+.home_title {
+  position: relative;
+  z-index: 3;
+  font-size: 46px;
+  padding-top:100px; 
+  color: #dbdbdb;
+}
+

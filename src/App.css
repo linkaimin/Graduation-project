@@ -1,0 +1,32 @@
+@import '~antd/dist/antd.css';
+
+.mr10{
+  margin: 10px
+}
+.mr20{
+  margin: 20px
+}
+.logo {
+  float: left;
+  width: 31px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+}
+.site-layout .site-layout-background {
+  background: #fff;  
+}
+.vote_phone{
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform:translateX(-50%);
+  z-index: 1000;
+}
